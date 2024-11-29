@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="web icon" href="web.jpg">
+    <title>Music Player</title>
+</head>
+<body>
+    <!-- nav bar -->
+    <nav>
+        <ul>
+            <li class="logo"><img src="music logo.png" alt="Music">Music Player</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <!-- for song display -->
+     <div class="container">
+         <div class="song-list">
+            <h1>Playlist</h1>
+            <div>
+                <div class="song-item">
+                    <img  alt="">
+                    <span class="songName">Still With You by JungKook</span>
+                    <span class="song-play"><span class="song-duration">03:58<i id="1" class="songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+                </div>
+                <div class="song-item">
+                    <img  alt="">
+                    <span class="songName">Just One Day by BTS</span>
+                    <span class="song-play"><span class="song-duration">04:13<i id="2" class="songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+                </div>
+                <div class="song-item">
+                    <img alt="">
+                    <span class="songName">Alibi Sevdaliza ft. Pabllo Vittar & Yseult</span>
+                    <span class="song-play"><span class="song-duration">03:13<i id="3" class="songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+                </div>
+                <div class="song-item">
+                    <img alt="">
+                    <span class="songName">APT - ROSÉ & Bruno Mars</span>
+                    <span class="song-play"><span class="song-duration">02:54<i id="4"
+                        class="songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+                </div>
+                <div class="song-item">
+                    <img alt="">
+                    <span class="songName">Husn by Anuv Jain</span>
+                    <span class="song-play"><span class="song-duration">04:00<i id="5" class="songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+                </div>
+                <div class="song-item">
+                    <img alt="">
+                    <span class="songName">Ishq by Amir Ameer Faheem Abdullah</span>
+                    <span class="song-play"><span class="song-duration">03:48<i id="6" class="songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+                </div>
+                <div class="song-item">
+                    <img alt="">
+                    <span class="songName">Bol Kaffara Sehar gul Shehbaz Fayaz</span>
+                    <span class="song-play"><span class="song-duration">06:46<i id="7" class="songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+                </div>
+                <div class="song-item">
+                    <img alt="">
+                    <span class="songName">Jo Tum Mere Ho by Anuv Jain</span>
+                    <span class="song-play"><span class="song-duration">04:17<i id="8" class="songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="bg-img"></div> -->
+     </div>
+     <!-- for play strip -->
+     <div class="bottom">
+        <input type="range" name="range" id="progress-bar" min="0" value="0" max="100">
+        <!-- for play icons -->
+         <div class="icons">
+            <!-- font awesome-icons -->
+            <i class=" fa-2x fa-solid fa-step-backward" id="previous"></i>
+            <i class=" fa-2x fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class=" fa-2x fa-solid fa-step-forward" id="next"></i>
+         </div>
+         <div class="song-info">
+         <span id="masterSongName"></span>
+            </div>
+     </div>
+      <script src="https://kit.fontawesome.com/d968b48761.js" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+</body>
+</html>
